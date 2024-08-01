@@ -38,9 +38,9 @@ const Hero = () => {
         <div className=" absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"/>
         <div className=" absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 pink__gradient"/>
         <div className=" absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
-        <div className="absolute w-[90px] h-[90px] rounded-full bg-blue-gradient top-0 left-0"/>
-        <div className="absolute w-[30px] h-[30px] rounded-full bg-blue-gradient top-[345px] left-[105px]"/>
-        <div className="absolute w-[60px] h-[60px] rounded-full bg-blue-gradient top-[280px] left-[380px]"/>
+        <div className="absolute w-[90px] h-[90px] rounded-full bg-blue-gradient top-0 left-0 hidden lg:block"/>
+        <div className="absolute w-[30px] h-[30px] rounded-full bg-blue-gradient top-[345px] left-[105px] hidden lg:block"/>
+        <div className="absolute w-[60px] h-[60px] rounded-full bg-blue-gradient top-[280px] left-[380px] hidden lg:block"/>
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
